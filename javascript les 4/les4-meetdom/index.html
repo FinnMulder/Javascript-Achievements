@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <script src="extern.js"></script>
+        <script>
+            alert("Where is DOM? I can't find him!");
+        </script>
+    </head>
+    <body>
+    <h1>hi DOM i am not DOM!</h1>    
+    <p id="greet">...</p>
+    <script>
+        document.getElementById('greet').textContent = "Hi i'm DOM!"
+    </script>
+    <input type="button" value = "find me inside" onclick="function inline(){
+        document.getElementById('greet').textContent = 'Thank you for using the DOM inline!';
+    }inline();">
+    </input>
+    <input type="button" value = "Find me outside" onclick="clickedMe()"></input>
+    <button onclick = "myFunction ()" > probeer het </button>
+<p id="demo"></p>
+<script>
+functie myFunction (){
+    document.title = "Hoi DOM ik ben niet DOM" ;
+    document.getElementById ("demo"). innerHTML
+}
+</script>
+    </body>
+</html>
